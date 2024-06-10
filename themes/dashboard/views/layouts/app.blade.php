@@ -50,7 +50,7 @@
         <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Kontak</a>
       </li>
     </ul>
 
@@ -91,11 +91,11 @@
               <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Brad Diesel
+                  Dian Natama
                   <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">Call me whenever you can...</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm">apaansih soakrap lu!!!</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 jam yang lalu</p>
               </div>
             </div>
             <!-- Message End -->
@@ -107,11 +107,11 @@
               <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  John Pierce
+                  Reza Safitri
                   <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">I got your message bro</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm">Sainz menang race di Spanyol njir</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 7 jam yang lalu</p>
               </div>
             </div>
             <!-- Message End -->
@@ -123,17 +123,17 @@
               <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Nora Silvester
+                  Lee Min Ho
                   <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">The subject goes here</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm">Disgusting shit..</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 8 jam yang lalu</p>
               </div>
             </div>
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          <a href="#" class="dropdown-item dropdown-footer">Lihat Semua Pesan</a>
         </div>
       </li>
       <!-- Notifications Dropdown Menu -->
@@ -143,24 +143,24 @@
           <span class="badge badge-warning navbar-badge">15</span>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <span class="dropdown-item dropdown-header">15 Notifikasi</span>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-envelope mr-2"></i> 4 new messages
-            <span class="float-right text-muted text-sm">3 mins</span>
+            <i class="fas fa-envelope mr-2"></i> 4 pesan baru
+            <span class="float-right text-muted text-sm">3 min</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-users mr-2"></i> 8 friend requests
-            <span class="float-right text-muted text-sm">12 hours</span>
+            <i class="fas fa-users mr-2"></i> 100 permintaan pertemanan
+            <span class="float-right text-muted text-sm">12 jam</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i> 3 new reports
-            <span class="float-right text-muted text-sm">2 days</span>
+            <i class="fas fa-file mr-2"></i> 3 laporan baru
+            <span class="float-right text-muted text-sm">2 hari</span>
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          <a href="#" class="dropdown-item dropdown-footer">Lihat Semua Notifikasi</a>
         </div>
       </li>
       <li class="nav-item">
@@ -181,7 +181,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <span class="brand-text font-weight-light">Online Examination</span>
+      <span class="brand-text font-weight-light">Ujian Daring</span>
     </a>
 
     <!-- Sidebar -->
@@ -209,33 +209,33 @@
             <li class="nav-item">
                 <a href="{{ url('admin/exam_category')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Category</p>
+                    <p>Kategori</p>
                 </a>
             </li>
 
             <li class="nav-item">
               <a href="{{ url('admin/manage_exam')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Manage Exam</p>
+                  <p>Kelola Ujian</p>
               </a>
           </li>
 
           <li class="nav-item">
             <a href="{{ url('admin/manage_students')}}" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Students</p>
+                <p>Siswa</p>
             </a>
         </li>
         <li class="nav-item">
           <a href="{{ url('admin/registered_students')}}" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Registered students</p>
+              <p>Siswa Terdaftar</p>
           </a>
       </li>
         <li class="nav-item">
           <a href="{{ url('admin/logout')}}" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Logout</p>
+              <p>Keluar</p>
           </a>
       </li>
             <!--

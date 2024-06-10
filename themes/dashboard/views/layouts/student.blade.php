@@ -50,7 +50,7 @@
         <a href="index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Kontak</a>
       </li>
     </ul>
 
@@ -99,7 +99,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <span class="brand-text font-weight-light">Online Examination</span>
+      <span class="brand-text font-weight-light">Ujian Daring</span>
     </a>
 
     <!-- Sidebar -->
@@ -136,7 +136,7 @@
                 <a href="{{ url('student/exam')}}" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                    Exam
+                    Ujian
                     </p>
                 </a>
             </li> 
@@ -145,7 +145,7 @@
               <a href="{{ url('student/logout')}}" class="nav-link">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
-                  Logout
+                  Keluar
                   </p>
               </a>
             </li>
