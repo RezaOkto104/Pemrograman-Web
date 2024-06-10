@@ -28,7 +28,7 @@
               <!-- Default box -->
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">Title</h3>
+                  <h3 class="card-title"> </h3>
   
                   <div class="card-tools">
                         <a class="btn btn-info btn-sm" href="javascript:;" data-toggle="modal" data-target="#myModal">Tambahkan</a>
@@ -50,7 +50,7 @@
                                  <td><input class="category_status" data-id="<?php echo $cat['id'] ?>" <?php if($cat['status']==1){ echo "checked";} ?> type="checkbox" name="status"></td>
                                  <th>
                                      <a href="{{ url('admin/edit_category/'.$cat['id'])}}" class="btn btn-info">Edit</a>
-                                     <a href="{{ url('admin/delete_category/'.$cat['id'])}}" class="btn btn-danger">Delete</a>
+                                     <a href="{{ url('admin/delete_category/'.$cat['id'])}}" class="btn btn-danger">Hapus</a>
                                  </th>
                              </tr>   
                             @endforeach

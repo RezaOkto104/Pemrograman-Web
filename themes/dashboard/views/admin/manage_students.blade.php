@@ -28,10 +28,10 @@
               <!-- Default box -->
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">Title</h3>
+                  <h3 class="card-title"> </h3>
   
                   <div class="card-tools">
-                        <a class="btn btn-info btn-sm" href="javascript:;" data-toggle="modal" data-target="#myModal">Add new</a>
+                        <a class="btn btn-info btn-sm" href="javascript:;" data-toggle="modal" data-target="#myModal">Tambahkan</a>
                   </div>
                 </div>
                 <div class="card-body">
@@ -44,7 +44,7 @@
                                 <th>Mata Pelajaran</th>
                                 <th>Tanggal Ujian</th>
                                 <th>Hasil</th>
-                                <th>status</th>
+                                <th>Status</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
@@ -70,7 +70,7 @@
                                   <td><input type="checkbox" class="student_status" data-id="{{ $std['id']}}" <?php if($std['std_status']==1){ echo "checked";} ?> name="status"></td>
                                   <td>
                                       {{-- <a href="{{url('admin/edit_students/'.$std['id'])}}" class="btn btn-primary">Edit</a> --}}
-                                      <a href="{{url('admin/delete_students/'.$std['id'])}}" class="btn btn-danger btn-sm">Delete</a>
+                                      <a href="{{url('admin/delete_students/'.$std['id'])}}" class="btn btn-danger btn-sm">Hapus</a>
                                   </td>
                               </tr>
                           @endforeach
@@ -143,7 +143,7 @@
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">password</label>
+                            <label for="">Password</label>
                             <input type="password" required="required" name="password" placeholder="Masukkan Password" class="form-control">
                         </div>
                     </div>

@@ -28,7 +28,7 @@
               <!-- Default box -->
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">Title</h3>
+                  <h3 class="card-title"> </h3>
   
                   <div class="card-tools">
                         <a class="btn btn-info btn-sm" href="javascript:;" data-toggle="modal" data-target="#myModal">Tambahkan</a>
@@ -56,7 +56,7 @@
                                    <td><input type="checkbox" class="exam_status" data-id="{{ $exam['id']}}" <?php if($exam['status']==1){ echo "checked";} ?> name="status"></td>
                                    <td>
                                        <a href="{{ url('admin/edit_exam/'.$exam['id'])}}" class="btn btn-info">Edit</a>
-                                       <a href="{{ url('admin/delete_exam/'.$exam['id'])}}" class="btn btn-danger">Delete</a>
+                                       <a href="{{ url('admin/delete_exam/'.$exam['id'])}}" class="btn btn-danger">Hapus</a>
                                        <a href="{{ url('admin/add_questions/'.$exam['id'])}}" class="btn btn-primary">Tambah Pertanyaan</a>
                                    </td>
                                </tr>
