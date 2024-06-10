@@ -35,7 +35,7 @@
               <div class="inner">
                 <h3>{{ $student}}</h3>
 
-                <p>Total students</p>
+                <p>Total siswa</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -49,7 +49,7 @@
               <div class="inner">
                 <h3>{{ $admin}}</h3>
 
-                <p>Total admins</p>
+                <p>Total admin</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -64,7 +64,7 @@
               <div class="inner">
                 <h3>{{ $exam}}</h3>
 
-                <p>Exams</p>
+                <p>Ujian</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
