@@ -98,43 +98,43 @@
                             <label for="">Masukan Pertanyaan</label>
                             {{ csrf_field()}}
                             <input type="hidden" name="exam_id" value="{{ Request::segment(3)}}">
-                            <input type="text" required="required" name="question" placeholder="Enter Question" class="form-control">
+                            <input type="text" required="required" name="question" placeholder="Masukkan Pertanyaan" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="">Pilihan 1</label>
-                            <input type="text" required="required" name="option_1" placeholder="Enter Question" class="form-control">
+                            <input type="text" required="required" name="option_1" placeholder="Masukkan Pilihan 1" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="">Pilihan 2</label>
-                            <input type="text" required="required" name="option_2" placeholder="Enter Option 2" class="form-control">
+                            <input type="text" required="required" name="option_2" placeholder="Masukkan Pilihan 2" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="">Pilihan 3</label>
-                            <input type="text" required="required" name="option_3" placeholder="Enter  Option 3" class="form-control">
+                            <input type="text" required="required" name="option_3" placeholder="Masukkan Pilihan 3" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="">Pilihan 4</label>
-                            <input type="text" required="required" name="option_4" placeholder="Enter  Option 4" class="form-control">
+                            <input type="text" required="required" name="option_4" placeholder="Masukkan Pilihan 4" class="form-control">
                         </div>
                     </div>
                     {{-- <div class="col-sm-12">
                         <div class="form-group">
                             <label for="">Jawaban Benar</label>
-                            <input type="text" required="required" name="ans" placeholder="Enter  correct ans" class="form-control">
+                            <input type="text" required="required" name="ans" placeholder="Masukkan Jawaban Benar" class="form-control">
                         </div>
                     </div> --}}
                     <div class="form-group">
                       <label for="">Jawaban Benar</label>
                       <select class="form-control" required="required" name="ans">
-                          <option value="">Select</option>
+                          <option value="">pilih</option>
                         
                           <option value="option_1">Pilihan 1</option>
                           <option value="option_2">Pilihan 2</option>
@@ -146,7 +146,7 @@
 
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <button class="btn btn-primary">Tambahkan</button>
+                            <button class="btn btn-primary">Tambah</button>
                         </div>
                     </div>
                 </div>
