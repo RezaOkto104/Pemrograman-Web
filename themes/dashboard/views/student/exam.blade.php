@@ -33,7 +33,7 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Judul Ujian</th>
+                                <th>Mata Pelajaran</th>
                                 <th>Waktu Ujian</th>
                                 <th>Status</th>
                                 <th>Hasil</th>
