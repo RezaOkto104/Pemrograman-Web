@@ -36,7 +36,7 @@
                                     <label for="">Masukkan Kategori</label>
                                     {{ csrf_field()}}
                                     <input type="hidden" name="id" value="{{ $category->id}}">
-                                    <input type="text" required="required" value="{{ $category->name}}" name="name" placeholder="Enter category name" class="form-control">
+                                    <input type="text" required="required" value="{{ $category->name}}" name="name" placeholder="Masukkan Nama Kategori" class="form-control">
                                 </div>
                             </div>
                             <div class="col-sm-12">

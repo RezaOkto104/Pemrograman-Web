@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Manage Students</h1>
+            <h1 class="m-0">Kelola Siswa</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Manage Exam</li>
+              <li class="breadcrumb-item active">Kelola Ujian</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -41,11 +41,11 @@
                                 <th>#</th>
                                 <th>Name</th>
                                 {{-- <th>DOB</th> --}}
-                                <th>Exam</th>
-                                <th>Exam Date</th>
-                                <th>Result</th>
+                                <th>Mata Pelajaran</th>
+                                <th>Tanggal Ujian</th>
+                                <th>Hasil</th>
                                 <th>status</th>
-                                <th>Actions</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -60,7 +60,7 @@
                                     <?php 
                                     if($std['exam_joined']==1){
                                     ?>
-                                          <a href="{{url('admin/admin_view_result/'.$std['id'])}}" class="btn btn-info btn-sm">View result</a>
+                                          <a href="{{url('admin/admin_view_result/'.$std['id'])}}" class="btn btn-info btn-sm">Lihat Hasil</a>
                                     <?php    
                                     }
                                     ?>
@@ -97,7 +97,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Add new Student</h4>
+          <h4 class="modal-title">Tambah Siswa Baru</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -105,36 +105,36 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Enter Name</label>
+                            <label for="">Nama</label>
                             {{ csrf_field()}}
-                            <input type="text" required="required" name="name" placeholder="Enter name" class="form-control">
+                            <input type="text" required="required" name="name" placeholder="Masukkan Nama" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Enter E-mail</label>
+                            <label for="">E-mail</label>
                             {{ csrf_field()}}
-                            <input type="text" required="required" name="email" placeholder="Enter name" class="form-control">
+                            <input type="text" required="required" name="email" placeholder="Masukkan Email" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Enter Mobile-no</label>
+                            <label for="">No Handphone</label>
                             {{ csrf_field()}}
-                            <input type="text" required="required" name="mobile_no" placeholder="Enter mobile-no" class="form-control">
+                            <input type="text" required="required" name="mobile_no" placeholder="Masukkan No Handphone" class="form-control">
                         </div>
                     </div>
                     {{-- <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Select DOB</label>
+                            <label for="">pilih DOB</label>
                             <input type="date" required="required" name="dob"  class="form-control">
                         </div>
                     </div> --}}
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Select exam</label>
+                            <label for="">Pilihan Ujian</label>
                             <select class="form-control" required="required" name="exam">
-                                <option value="">Select</option>
+                                <option value="">Pilih</option>
                                 @foreach ($exams as $exam)
                                     <option value="{{ $exam['id']}}">{{ $exam['title']}}</option>
                                 @endforeach
@@ -144,12 +144,12 @@
                     <div class="col-sm-12">
                         <div class="form-group">
                             <label for="">password</label>
-                            <input type="password" required="required" name="password" placeholder="Enter password" class="form-control">
+                            <input type="password" required="required" name="password" placeholder="Masukkan Password" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <button class="btn btn-primary">Add</button>
+                            <button class="btn btn-primary">Tambah</button>
                         </div>
                     </div>
                 </div>

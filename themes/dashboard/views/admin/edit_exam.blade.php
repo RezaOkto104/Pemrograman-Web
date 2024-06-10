@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Edit Exam</h1>
+            <h1 class="m-0">Edit Ujian</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Edit Category</li>
+              <li class="breadcrumb-item active">Edit Kategori</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -33,29 +33,29 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="">Enter title</label>
+                                    <label for="">Mata Pelajaran</label>
                                     {{ csrf_field()}}
                                     <input type="hidden" name="id" value="{{ $exam->id }}">
-                                    <input type="text" required="required" value="{{ $exam->title}}" name="title" placeholder="Enter title" class="form-control">
+                                    <input type="text" required="required" value="{{ $exam->title}}" name="title" placeholder="Masukkan Mata Pelajaran" class="form-control">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="">Enter Date</label>
+                                    <label for="">Tanggal Ujian</label>
                                     <input type="date" required="required"  value="{{ $exam->exam_date}}" name="exam_date"  class="form-control">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                               <div class="form-group">
-                                  <label for="">Enter Time(in minutes)</label>
+                                  <label for="">Durasi(in minutes)</label>
                                   <input type="text" required="required"  value="{{ $exam->exam_duration}}" name="exam_duration"  class="form-control">
                               </div>
                           </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="">Select category</label>
+                                    <label for="">Pilih Kategori</label>
                                     <select class="form-control" required="required" name="exam_category">
-                                        <option value="">Select</option>
+                                        <option value="">pilih</option>
                                         @foreach ($category as $cat)
                                         <option <?php if($exam->category==$cat['id']) { echo "selected";} ?> value="{{ $cat['id']}}">{{ $cat['name']}}</option>
                                         @endforeach
