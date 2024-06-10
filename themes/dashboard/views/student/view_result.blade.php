@@ -47,7 +47,7 @@
                                 <td>{{ $student_info->dob}}</td>
                             </tr> --}}
                             <tr>
-                                <td>Judul Ujian : </td>
+                                <td>Mata Pelajaran : </td>
                                 <td>{{ $exam_info->title}}</td>
                             </tr>
                             <tr>

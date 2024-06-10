@@ -55,14 +55,14 @@
                   <h3>{{ $exam['title']}}</h3>
   
                   <p>{{ $exam['cat_name']}}</p>
-                  <p>Exam date : {{$exam['exam_date']}}</p>
+                  <p>Tanggal Ujian : {{$exam['exam_date']}}</p>
                   </div>
                   <div class="icon">
                   <i class="ion ion-bag"></i>
                   </div>
                   @if (strtotime(date('Y-m-d')) <= strtotime($exam['exam_date']))
                       
-                      <a data-id="{{ $exam['id']}}"  class="apply_exam small-box-footer">Apply<i class="fas fa-arrow-circle-right"></i></a>
+                      <a data-id="{{ $exam['id']}}"  class="apply_exam small-box-footer">Terapkan<i class="fas fa-arrow-circle-right"></i></a>
             
                   @endif
                   
