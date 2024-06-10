@@ -71,7 +71,7 @@
           <div class="banner" >
             <div class="container">
               <h1 class="font-weight-semibold">Selamat Datang di Aplikasi QuizLit</h1>
-              <h6 class="font-weight-normal text-muted pb-3">Quiz Evaluasi Kemampuan Siswa dengan Efisien</h6>
+              <h6 class="font-weight-normal text-muted pb-3">Quiz Evaluasi Kemampuan Siswa Dengan Efisien</h6>
               <div>
                       <a href="{{ url('/login') }}" class="btn btn-opacity-light mr-1"><b>Siswa Masuk</b></a>
                       <a href="{{ route('register') }}"class="btn btn-opacity-success ml-1"><b>Siswa Daftar</b></a>
