@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Result</h1>
+            <h1 class="m-0">Hasil</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Exam</li>
+              <li class="breadcrumb-item active">Ujian</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -32,10 +32,10 @@
                 <div class="card mt-4">
                     
                     <div class="card-body">
-                        <h2>Student information</h2>
+                        <h2>Informasi Siswa</h2>
                         <table class="table">
                             <tr>
-                                <td>Name : </td>
+                                <td>Nama : </td>
                                 <td>{{ $student_info->name}}</td>
                             </tr>
                             <tr>
@@ -47,22 +47,22 @@
                                 <td>{{ $student_info->dob}}</td>
                             </tr> --}}
                             <tr>
-                                <td>Exam name : </td>
+                                <td>Mata Pelajaran : </td>
                                 <td>{{ $exam_info->title}}</td>
                             </tr>
                             <tr>
-                                <td>Exam date : </td>
+                                <td>Tanggal ujian : </td>
                                 <td>{{ $exam_info->exam_date}}</td>
                             </tr>
                         </table>
-                        <h2>Result info</h2>
+                        <h2>Informasi Hasil</h2>
                         <table class="table">
                             <tr>
-                                <td>Correst ans : </td>
+                                <td>Jumlah Benar : </td>
                                 <td>{{ $result_info->yes_ans}}</td>
                             </tr>
                             <tr>
-                                <td>Wrong ans : </td>
+                                <td>Jumlah Salah : </td>
                                 <td>{{ $result_info->no_ans}}</td>
                             </tr>
                             <tr>
